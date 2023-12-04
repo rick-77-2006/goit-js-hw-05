@@ -4,6 +4,7 @@ const getTotalBalanceByGender = (users, gender) => {
     return totalBalance + usr.balance;
   }, 0);
 };
+
 const allUsers = [
   {
     name: "Moore Hensley",
